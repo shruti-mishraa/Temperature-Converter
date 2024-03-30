@@ -12,6 +12,8 @@ Usage:
 2. Click the corresponding "Convert" button to see the converted temperature.
 3. To reset the input fields, click the "Reset" button.
 
-![Temperature Converter](temp1.png)
+## Screenshots:
 
-![Temperature Converter](temp2.png)
+![Temperature Converter - Screenshot 1](temp1.png)
+
+![Temperature Converter - Screenshot 2](temp2.png)
