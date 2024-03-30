@@ -1,0 +1,149 @@
+body{
+    background-color: azure;
+}
+
+ .icon-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #eaead3;;
+    padding: 27px;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+.fa-clipboard{
+    position: absolute;
+    left: 96%;
+    top: 4%;
+    color:rgb(98, 160, 199);
+    font-size: 30px;
+}
+
+.fa-clipboard:hover{
+    color:black;
+ }
+.fa-ellipsis-vertical{
+    position: absolute;
+    left: 2%;
+    top: 4%;
+    color:rgb(11, 33, 46);
+    font-size: 33px;
+ }
+ .fa-ellipsis-vertical:hover{
+    color:black;
+ } 
+.fa-cloud-sun{
+    position: absolute;
+    left: 89%;
+    top: 4%;
+    color:rgb(240, 139, 77);
+    font-size: 30px;
+ }
+ .fa-cloud-sun:hover{
+    color:black;
+ }
+ 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    margin-top: 50px;
+    background: #fff;
+    max-width: 650px;
+    width: 100%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    padding: 25px 30px;
+}
+
+.form header {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 15%;
+    text-align: center;
+    color: #5c3434;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.field label {
+    width: 150px;
+    font-size: 20px; 
+}
+
+.field .input {
+    display: flex;
+    flex: 1;
+}
+
+.field .input input {
+    flex: 1;
+    height: 40px;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #f6efef;;
+    margin-right: 20px;
+}
+
+.field .input button {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #ecc9af;
+}
+
+.field .input button:hover{
+    background-color: #906f56;
+    box-shadow: -1px -1px 5px 4px;
+}
+
+.field.button {
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d6a0a0;
+    color: #0a0404;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.reset-button:hover {
+    background-color: #9f5858;
+    box-shadow: -1px -1px 5px 4px; 
+}
+
+
+
+
+

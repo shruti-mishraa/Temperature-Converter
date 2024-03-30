@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/8ffd88250d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="icon-container">
+        <div class="icon">
+            <i class="fas fa-ellipsis-vertical"></i>
+        </div>
+        <div class="icon">
+            <i class="fas fa-clipboard"></i>
+        </div>
+        <div class="icon">
+            <i class="fas fa-cloud-sun"></i>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="form">
+            <header>Temperature Converter</header>
+            <div class="details">
+              <div class="field">
+                  <label for="celsius">Celsius :</label>
+                  <div class="input">
+                      <input id="celsius" type="text" placeholder="Enter Celsius">
+                      <button class="button" onclick="convertFahrenheit()">Convert into Fahrenheit</button>
+                  </div>
+              </div>
+              <div class="field">
+                  <label for="fahrenheit">Fahrenheit :</label>
+                  <div class="input">
+                      <input id="fahrenheit" type="text" placeholder="Enter Fahrenheit">
+                      <button class="button" onclick="convertCelsius()">Convert into Celsius</button>
+                  </div>
+              </div>
+          </div>
+          <div class="field button">
+            <button class="button reset-button" onclick="reset()">Reset</button>
+        </div>
+        
+        </div>
+    </div>
+    <script src="custom.js"></script>
+</body>
+</html>
